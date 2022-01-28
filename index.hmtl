@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>formulario</title>
+</head>
+
+<body>
+    <main class=container>
+        <h2>login</h2>
+        <form action="">
+            <input type="text" name="email" id="email" placeholder="enter your email">
+            <input type="password" name="password" id="password" placeholder="your password">
+            <input type="submit" value="continue" id="continue">
+        </form>
+        <footer>
+            <span>or conect with your social media</span>
+            <div class="socials">
+
+
+                <a href="https://twitter.com/i/flow/login">
+                    <img src="./twitter_3.0.jpg" width="40px" height="40px" id="twitter">
+                </a>
+                <a href="https://www.facebook.com/login.php/">
+                    <img src="./facebook.png" width="40px" height="40px" id="facebook">
+                </a>
+
+            </div>
+
+        </footer>
+    </main>
+</body>
+
+</html>
